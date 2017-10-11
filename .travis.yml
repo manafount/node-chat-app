@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- iojs
+- '8'
+- '7'
+cache: yarn
+deploy:
+  provider: heroku
+  api_key:
+    secure: RsaV4X8kZ+TKp4LZtlshsCFjQAiK3vsNuvcWfJSpQ+dNnerkVS4Wal/QzcLv9/aEzQyB8J61SME2QLcrXUTtm+Vk9r+nCAaZ2yt8DSQ74RQoakeDtwAFxpfdildv9mQr8rbXO5AoBhjkj94DzndN1Wkbvvm1CfsVpyXNTM7InjKvzHEQC4MguNZVE2EL9yY16xa1O82twNgnw9xyCJzamFV/1GRoz8Vg9HNWLD4RKffXnfrpRUTb9CXiGzBG5sS1br74EhG3GW7sREFHDmyYEnMGZ6N1WOUcd4lZBVRUbcsd/KSpPdMdeG4s0p2AoPeFYRavZkRgP1s42fptxvtKV9wjz/Vh6znqZpqn7MrQyZ9zPCoivAq7C1+D0wqoVbj1YqXdWbgHCh2/FlJ1qruCySBXFDhcXTdvhHGTsU/FPvgCRcIGQzsS0R8GBOz82aV5odc2b35i4MKnVU/t+Hrs5VeGySwmWLljDSOO8F0rQWBd4tKcKpLigMFMv/SJAkNRLm8FMtHuA4+/pMVw25BJi8PTQgsU+m5517JWBXHBVEAPbOb92Q4rdLipbBuxKHiAReCS/8bMFtzbMiapg1AmoWAJeYY8UslWshrzkc6aZFz3ABRkv9tAYhfinYTX+LCMOPeGnTMKyA61OodiBi0cEAYahdcs3bgPWrcBmzYNuL4=
+  app: node-chat
